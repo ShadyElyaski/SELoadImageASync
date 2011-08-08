@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96641FCF13E3D0780028CFAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96641FCE13E3D0780028CFAF /* UIKit.framework */; };
+		96641FD113E3D0780028CFAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96641FD013E3D0780028CFAF /* Foundation.framework */; };
+		96641FD313E3D0780028CFAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96641FD213E3D0780028CFAF /* CoreGraphics.framework */; };
+		96641FD913E3D0780028CFAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96641FD713E3D0780028CFAF /* InfoPlist.strings */; };
+		96641FDB13E3D0780028CFAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96641FDA13E3D0780028CFAF /* main.m */; };
+		96641FDF13E3D0780028CFAF /* SELoadImageASync_DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96641FDE13E3D0780028CFAF /* SELoadImageASync_DemoAppDelegate.m */; };
+		96641FE213E3D0780028CFAF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96641FE013E3D0780028CFAF /* MainWindow.xib */; };
+		96641FE513E3D0790028CFAF /* SELoadImageASync_DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96641FE413E3D0790028CFAF /* SELoadImageASync_DemoViewController.m */; };
+		96641FE813E3D0790028CFAF /* SELoadImageASync_DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96641FE613E3D0790028CFAF /* SELoadImageASync_DemoViewController.xib */; };
+		96641FF113E3D1360028CFAF /* SELoadImageASync.m in Sources */ = {isa = PBXBuildFile; fileRef = 96641FF013E3D1360028CFAF /* SELoadImageASync.m */; };
+		96641FF313E3E1970028CFAF /* Licence in Resources */ = {isa = PBXBuildFile; fileRef = 96641FF213E3E1960028CFAF /* Licence */; };
+		96682A8C13E90D0000C04FFA /* FileDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96682A8B13E90D0000C04FFA /* FileDownloadOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96641FCA13E3D0780028CFAF /* SELoadImageASync_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SELoadImageASync_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96641FCE13E3D0780028CFAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96641FD013E3D0780028CFAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96641FD213E3D0780028CFAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96641FD613E3D0780028CFAF /* SELoadImageASync_Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SELoadImageASync_Demo-Info.plist"; sourceTree = "<group>"; };
+		96641FD813E3D0780028CFAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96641FDA13E3D0780028CFAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96641FDC13E3D0780028CFAF /* SELoadImageASync_Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SELoadImageASync_Demo-Prefix.pch"; sourceTree = "<group>"; };
+		96641FDD13E3D0780028CFAF /* SELoadImageASync_DemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SELoadImageASync_DemoAppDelegate.h; sourceTree = "<group>"; };
+		96641FDE13E3D0780028CFAF /* SELoadImageASync_DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SELoadImageASync_DemoAppDelegate.m; sourceTree = "<group>"; };
+		96641FE113E3D0780028CFAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		96641FE313E3D0780028CFAF /* SELoadImageASync_DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SELoadImageASync_DemoViewController.h; sourceTree = "<group>"; };
+		96641FE413E3D0790028CFAF /* SELoadImageASync_DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SELoadImageASync_DemoViewController.m; sourceTree = "<group>"; };
+		96641FE713E3D0790028CFAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SELoadImageASync_DemoViewController.xib; sourceTree = "<group>"; };
+		96641FEF13E3D1360028CFAF /* SELoadImageASync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SELoadImageASync.h; sourceTree = "<group>"; };
+		96641FF013E3D1360028CFAF /* SELoadImageASync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SELoadImageASync.m; sourceTree = "<group>"; };
+		96641FF213E3E1960028CFAF /* Licence */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Licence; sourceTree = "<group>"; };
+		96682A8A13E90D0000C04FFA /* FileDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDownloadOperation.h; sourceTree = "<group>"; };
+		96682A8B13E90D0000C04FFA /* FileDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDownloadOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96641FC713E3D0780028CFAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96641FCF13E3D0780028CFAF /* UIKit.framework in Frameworks */,
+				96641FD113E3D0780028CFAF /* Foundation.framework in Frameworks */,
+				96641FD313E3D0780028CFAF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96641FBF13E3D0770028CFAF = {
+			isa = PBXGroup;
+			children = (
+				96641FF213E3E1960028CFAF /* Licence */,
+				96641FEE13E3D0D70028CFAF /* SELoadImageASync */,
+				96641FD413E3D0780028CFAF /* SELoadImageASync_Demo */,
+				96641FCD13E3D0780028CFAF /* Frameworks */,
+				96641FCB13E3D0780028CFAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96641FCB13E3D0780028CFAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96641FCA13E3D0780028CFAF /* SELoadImageASync_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96641FCD13E3D0780028CFAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96641FCE13E3D0780028CFAF /* UIKit.framework */,
+				96641FD013E3D0780028CFAF /* Foundation.framework */,
+				96641FD213E3D0780028CFAF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96641FD413E3D0780028CFAF /* SELoadImageASync_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				96641FDD13E3D0780028CFAF /* SELoadImageASync_DemoAppDelegate.h */,
+				96641FDE13E3D0780028CFAF /* SELoadImageASync_DemoAppDelegate.m */,
+				96641FE013E3D0780028CFAF /* MainWindow.xib */,
+				96641FE313E3D0780028CFAF /* SELoadImageASync_DemoViewController.h */,
+				96641FE413E3D0790028CFAF /* SELoadImageASync_DemoViewController.m */,
+				96641FE613E3D0790028CFAF /* SELoadImageASync_DemoViewController.xib */,
+				96641FD513E3D0780028CFAF /* Supporting Files */,
+			);
+			path = SELoadImageASync_Demo;
+			sourceTree = "<group>";
+		};
+		96641FD513E3D0780028CFAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96641FD613E3D0780028CFAF /* SELoadImageASync_Demo-Info.plist */,
+				96641FD713E3D0780028CFAF /* InfoPlist.strings */,
+				96641FDA13E3D0780028CFAF /* main.m */,
+				96641FDC13E3D0780028CFAF /* SELoadImageASync_Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96641FEE13E3D0D70028CFAF /* SELoadImageASync */ = {
+			isa = PBXGroup;
+			children = (
+				96641FEF13E3D1360028CFAF /* SELoadImageASync.h */,
+				96641FF013E3D1360028CFAF /* SELoadImageASync.m */,
+				96682A8A13E90D0000C04FFA /* FileDownloadOperation.h */,
+				96682A8B13E90D0000C04FFA /* FileDownloadOperation.m */,
+			);
+			name = SELoadImageASync;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96641FC913E3D0780028CFAF /* SELoadImageASync_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96641FEB13E3D0790028CFAF /* Build configuration list for PBXNativeTarget "SELoadImageASync_Demo" */;
+			buildPhases = (
+				96641FC613E3D0780028CFAF /* Sources */,
+				96641FC713E3D0780028CFAF /* Frameworks */,
+				96641FC813E3D0780028CFAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SELoadImageASync_Demo;
+			productName = SELoadImageASync_Demo;
+			productReference = 96641FCA13E3D0780028CFAF /* SELoadImageASync_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96641FC113E3D0770028CFAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Sarmady - A Vodafone Company";
+			};
+			buildConfigurationList = 96641FC413E3D0770028CFAF /* Build configuration list for PBXProject "SELoadImageASync_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96641FBF13E3D0770028CFAF;
+			productRefGroup = 96641FCB13E3D0780028CFAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96641FC913E3D0780028CFAF /* SELoadImageASync_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96641FC813E3D0780028CFAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96641FD913E3D0780028CFAF /* InfoPlist.strings in Resources */,
+				96641FE213E3D0780028CFAF /* MainWindow.xib in Resources */,
+				96641FE813E3D0790028CFAF /* SELoadImageASync_DemoViewController.xib in Resources */,
+				96641FF313E3E1970028CFAF /* Licence in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96641FC613E3D0780028CFAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96641FDB13E3D0780028CFAF /* main.m in Sources */,
+				96641FDF13E3D0780028CFAF /* SELoadImageASync_DemoAppDelegate.m in Sources */,
+				96641FE513E3D0790028CFAF /* SELoadImageASync_DemoViewController.m in Sources */,
+				96641FF113E3D1360028CFAF /* SELoadImageASync.m in Sources */,
+				96682A8C13E90D0000C04FFA /* FileDownloadOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96641FD713E3D0780028CFAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96641FD813E3D0780028CFAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96641FE013E3D0780028CFAF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96641FE113E3D0780028CFAF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		96641FE613E3D0790028CFAF /* SELoadImageASync_DemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96641FE713E3D0790028CFAF /* en */,
+			);
+			name = SELoadImageASync_DemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96641FE913E3D0790028CFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96641FEA13E3D0790028CFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96641FEC13E3D0790028CFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: George Emil (G2HG2KF7N5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SELoadImageASync_Demo/SELoadImageASync_Demo-Prefix.pch";
+				INFOPLIST_FILE = "SELoadImageASync_Demo/SELoadImageASync_Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "CF3F6C62-77E2-4C2B-9642-9498E01C4615";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96641FED13E3D0790028CFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: George Emil (G2HG2KF7N5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SELoadImageASync_Demo/SELoadImageASync_Demo-Prefix.pch";
+				INFOPLIST_FILE = "SELoadImageASync_Demo/SELoadImageASync_Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "CF3F6C62-77E2-4C2B-9642-9498E01C4615";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96641FC413E3D0770028CFAF /* Build configuration list for PBXProject "SELoadImageASync_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96641FE913E3D0790028CFAF /* Debug */,
+				96641FEA13E3D0790028CFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96641FEB13E3D0790028CFAF /* Build configuration list for PBXNativeTarget "SELoadImageASync_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96641FEC13E3D0790028CFAF /* Debug */,
+				96641FED13E3D0790028CFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96641FC113E3D0770028CFAF /* Project object */;
+}
