@@ -18,9 +18,9 @@ SELoadImageASync is a simple handy Obj-C method used to load image from URL into
 1. Simply add both
 `SELoadImageASync.h`
 and
-`SELoadImageASync.m`
+`SELoadImageASync.m` into your project.
 
-2. #import "SELoadImageASync.h"
+2. import "SELoadImageASync.h"
 
 ## Documentation
 
