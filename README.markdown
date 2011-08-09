@@ -2,7 +2,7 @@
 
 ## What is SELoadImageASync?
 
-SELoadImageASync is a simple handy Obj-C method used to load image from URL into a UIImageView ASynchronously and cache it in device forever, all that with just one line of code!
+SELoadImageASync is a simple handy Obj-C method used to load image from URL into a UIImageView ASynchronously and cache it on device forever, all that with just one line of code!
 
 **It has more features including:**
 
@@ -20,7 +20,7 @@ SELoadImageASync is a simple handy Obj-C method used to load image from URL into
 and
 `SELoadImageASync.m` into your project.
 
-2. import "SELoadImageASync.h"
+2. Add  `#import "SELoadImageASync.h"`.
 
 ## Documentation
 
