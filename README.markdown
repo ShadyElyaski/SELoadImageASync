@@ -34,7 +34,7 @@ and
 	eg. @"flower.png" or @"1.png"
 
 * ImageURL: URL of the Image
-	eg. [NSURL URLWithString:@"http://chalk.richmond.edu/education/projects/webunits/egypt/mask.jpg"]
+	eg. [NSURL URLWithString:@"http://www.touregypt.net/images/touregypt/masks2.jpg"]
 	
 * ImageView: The UIImageView where image should be placed
 	
